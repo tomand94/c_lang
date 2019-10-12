@@ -1,2 +1,1 @@
-# c_lang
-C language
+# Języki programowania - C
