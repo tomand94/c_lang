@@ -41,7 +41,7 @@ rm -rf  temp #usunięcie katalogu temp z calą zawartością
 ```
 8. Odtwórz z archiwum katalog temp. (unzip i tar)
 ```sh
-unzip temp.zip
+unzip temp.zip #odtworzono katalog temp
 ```
 
 9. Posprzątaj na swoim koncie.
