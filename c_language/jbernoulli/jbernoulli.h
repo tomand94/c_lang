@@ -1,6 +1,4 @@
-// x^y
-long long int powerll (long long int x, long long int y);
-// 1^%d + 2^%d + ... + 1000^%d = %d
-void print_results (int x, int suma);
-//calculates 'suma'
-long long int calculate_suma(int y);
+// calculates sum 1^y + 2^y + ... + 1000^y
+long long int calculate_sum(int y, int upper_limit);
+// prints 1^y + 2^y + ... + 1000^y = s
+void print_results(int y, int s, int upper_limit);

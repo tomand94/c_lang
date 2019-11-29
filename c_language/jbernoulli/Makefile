@@ -1,11 +1,7 @@
-CFLAGS=-Wall
+CFLAGS=-ggdb -Wall -std=c11
 LDLIBS=-lm
 
-hello_world:
-suma:
-roots_2:
-bernoullitable:
+jbernoulli_table : jbernoulli_table.o jbernoulli.o jbernoulli.h
 
-clean:
-	rm -f hello_world a.out suma roots_2 jbernoulli bernoullitable
-
+clean :
+	rm -f *.o jbernoulli_table

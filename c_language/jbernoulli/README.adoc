@@ -1,0 +1,29 @@
+## Liczby Bernoulliego
+
+* https://blog.wolfram.com/2015/01/15/jacob-bernoullis-legacy-in-mathematica/[Jacob Bernoulli’s Legacy in Mathematica]
+
+[source,ruby]
+----
+{
+                                       1_000,
+                                     500_500,
+                                 333_833_500,
+                             250_500_250_000,
+                         200_500_333_333_300,
+                     167_167_083_333_250_000,
+                 143_357_642_856_976_190_500,
+             125_500_583_333_041_666_750_000,
+         111_611_777_777_311_111_333_333_300,
+     100_500_749_999_300_000_499_999_850_000,
+  91_409_924_241_424_243_424_241_924_242_500
+}
+----
+
+# Zadania
+
+1. Napisać od nowa funkcję `powerll` tak aby liczyła poprawnie
+jak największą liczbę wierszy.
+
+2. Napisać funkcję wypisującą liczby w postaci j.w., tzn. z podkreśleniami.
+
+3. Skasować zbędne spacje po znaku `=` w tabelce.
