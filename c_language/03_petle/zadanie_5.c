@@ -9,13 +9,11 @@ int main() {
     printf("Podaj 6 liczb całkowitych do tablicy.\n");
 
     for (int i = 1; i <= LENGHT; i++) {
-        int x;
-        tablica[i] = scanf("%d", &x);
+        tablica[i] = scanf("%d", &tablica[i]);
     }
+
 
     for (int i =1; i <= LENGHT; i++) {
         printf ("Element numer %d = %d\n", i, tablica[i]);
     }
-
-    printf("%d", tablica[2]);
 }
