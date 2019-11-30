@@ -21,12 +21,11 @@ void print_row_2() {
 }
 
 int main() {
-    print_row_1();
-    print_row_2();
-    print_row_1();
-    print_row_2();
-    print_row_1();
-    print_row_2();
-    print_row_1();
-    print_row_2();
+    for (int i = 0; i < 8; i++) {
+        if (i%2 == 1) {
+            print_row_1();
+        } else {
+            print_row_2();
+        }
+    }
 }
