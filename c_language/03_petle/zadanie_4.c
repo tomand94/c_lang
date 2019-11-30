@@ -11,9 +11,8 @@ int main() {
     scanf("%d", &input);
     printf("------------------------- \n");
 
-    int i;
     if (input >= 1) {
-        for (i = 2; i <= input; i++) {
+        for (int i = 2; i <= input; i++) {
             suma += i;
             printf("%d \n", suma);
         }
