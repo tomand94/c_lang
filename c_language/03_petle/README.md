@@ -1,7 +1,7 @@
 # [Pętle] (http://wbzyl.inf.ug.edu.pl/c/petle)
 
 * [x] 1. Napisz program, który wypisuje kolejne potęgi liczby 2 nie przekraczające 2010. (zadanie_1.c)
-* [ ] 2. Napisz program wyświetlający poniższą szachownicę:
+* [x] 2. Napisz program wyświetlający poniższą szachownicę:
 
 * * * * * * * *
  * * * * * * * *
