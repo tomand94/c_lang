@@ -3,6 +3,7 @@
 * [x] 1. Napisz program, który wypisuje kolejne potęgi liczby 2 nie przekraczające 2010. (zadanie_1.c)
 * [x] 2. Napisz program wyświetlający poniższą szachownicę:
 
+```
 * * * * * * * *
  * * * * * * * *
 * * * * * * * *
@@ -11,6 +12,7 @@
  * * * * * * * *
 * * * * * * * *
  * * * * * * * *
+```
 
 * [x] 3. Napisz program, który wczyta dwie liczby całkowite a i b (a<b) a następnie wypisze wszystkie liczby całkowite pomiędzy a i b.
 
