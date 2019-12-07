@@ -2,6 +2,7 @@
 // Kiedy użytkownik poda liczbę mniejszą niż 1, to program powinien wypisać stosowny komunikat o błędzie.
 
 #include <stdio.h>
+
 void scan();
 void logic();
 int input = 0;
