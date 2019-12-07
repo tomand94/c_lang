@@ -26,7 +26,9 @@
 
 * [ ] 8. Napisz program rozmieszczający poniższe wzory oddzielnie jeden pod drugim. Użyj pętli for do generowania wzorów. Do wypisywania gwiazdek należy użyć instrukcji putchar('*') (powodującej wyświetlanie ich obok siebie). Uwaga: dwa ostatnie wzory wymagają, by każdy wiersz zaczynał się od odpowiedniej liczby spacji.
 
+```
 *       ****    ****       *
 **      ***      ***      **
 ***     **        **     ***
 ****    *          *    ****
+```
