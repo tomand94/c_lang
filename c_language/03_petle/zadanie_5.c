@@ -1,19 +1,17 @@
 // 5. Napisz program, który wczyta ze stdin 6 liczb całkowitych do tablicy, a następnie wypisze zawartość tej tablicy od początku i od końca.
 
 #include <stdio.h>
-#define LENGHT 6
+#define SIZE 6
+int main(int argc, char const *argv[]) {
 
-int main() {
-    int tablica[LENGHT];
-
+    int tablica[SIZE];
     printf("Podaj 6 liczb całkowitych do tablicy.\n");
 
-    for (int i = 1; i <= LENGHT; i++) {
-        tablica[i] = scanf("%d", &tablica[i]);
+    for (int i = 0; i < SIZE; i++) {
+        scanf("%i", &tablica[i]);
     }
 
-
-    for (int i =1; i <= LENGHT; i++) {
-        printf ("Element numer %d = %d\n", i, tablica[i]);
+    for (int i = 0 ; i < SIZE; i++) {
+        printf ("Element numer %i = %i\n", (i+1), tablica[i]);
     }
 }
