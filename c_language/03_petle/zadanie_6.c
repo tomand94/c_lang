@@ -10,7 +10,7 @@ void biggest_number();
 void smallest_number();
 
 int main() {
-    printf("Podaj 6 liczb całkowitych do tablicy.\n");
+    printf("Podaj 6 liczb rzeczywistych do tablicy.\n");
     scan_table();
     biggest_number();
     smallest_number();
@@ -45,22 +45,3 @@ void smallest_number() {
     }
     printf("Najmniejsza liczba: %d\n", tablica[0]);
 }
-
-
-/* 
-void print_table() {
-    for (int i = 0 ; i < SIZE; i++) {
-        printf ("Element numer %i = %i\n", (i+1), tablica[i]);
-    }
-}
-
-void biggest_number() {
-  for(int i = 0; i < SIZE; i++)
-    {
-       // Change < to > if you want to find the smallest element
-       if(tablica[0] < tablica[i])
-           tablica[0] = tablica[i];
-    }
-    printf("Largest element = %d", tablica[0]);
-}
-*/
