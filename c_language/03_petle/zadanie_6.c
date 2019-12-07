@@ -29,19 +29,19 @@ void print_table() {
 }
 
 void biggest_number() {
-  for(int i = 0; i < SIZE; i++)
-    {
-       if(tablica[0] < tablica[i])
+  for(int i = 0; i < SIZE; i++) {
+       if(tablica[0] < tablica[i]) {
            tablica[0] = tablica[i];
-    }
+       }
+  }
     printf("Największa liczba: %d\n", tablica[0]);
 }
 
 void smallest_number() {
-  for(int i = 0; i < SIZE; i++)
-    {
-       if(tablica[0] > tablica[i])
+  for(int i = 0; i < SIZE; i++) {
+       if(tablica[0] > tablica[i]) {
            tablica[0] = tablica[i];
-    }
+       }
+  }
     printf("Najmniejsza liczba: %d\n", tablica[0]);
 }
