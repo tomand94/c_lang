@@ -3,7 +3,7 @@
 #include <stdio.h>
 #define SIZE 6
 
-int tablica[SIZE];
+double tablica[SIZE];
 void print_table();
 void scan_table();
 void biggest_number();
@@ -18,13 +18,13 @@ int main() {
 
 void scan_table() {
   for (int i = 0; i < SIZE; i++) {
-        scanf("%i", &tablica[i]);
+        scanf("%lf", &tablica[i]);
     }
 }
 
 void print_table() {
     for (int i = 0 ; i < SIZE; i++) {
-        printf ("Element numer %i = %i\n", (i+1), tablica[i]);
+        printf ("Element numer %i = %lf\n", (i+1), tablica[i]);
     }
 }
 
@@ -34,7 +34,7 @@ void biggest_number() {
            tablica[0] = tablica[i];
        }
   }
-    printf("Największa liczba: %d\n", tablica[0]);
+    printf("Największa liczba: %lf\n", tablica[0]);
 }
 
 void smallest_number() {
@@ -43,5 +43,5 @@ void smallest_number() {
            tablica[0] = tablica[i];
        }
   }
-    printf("Najmniejsza liczba: %d\n", tablica[0]);
+    printf("Najmniejsza liczba: %lf\n", tablica[0]);
 }
