@@ -8,7 +8,7 @@ long rekurencja(long n, int k);
 int main() {
     long n, wynik;
     int k;
-    
+
     scanf("%ld", &n);
     scanf("%d", &k);
     wynik = rekurencja(n,k);
@@ -27,5 +27,5 @@ long rekurencja(long n, int k) {
         return n;
     } else {
         return n*rekurencja(n,k-1);
-    }    
+    }
 }
