@@ -2,30 +2,24 @@
 #include <math.h>
 
 
-int jest_pierwsza(int num_for_test)
-{
-  int limit = sqrt(num_for_test);
+int prime_number(int number) {
+  int limit = sqrt(number);
   int divider = 2;
 
-  while(divider <= limit)
-  {
-    if(num_for_test % divider++ == 0)
-    {
+  while(divider <= limit) {
+    if(number % divider++ == 0) {
       return 0;
     }
-  }
-  return 1;
+  } return 1;
 }
 
-int main()
-{
-  int n = 0;
+int main() {
+  int x = 0;
 
-  printf("Podaj liczbe calkowita: ");
-  scanf("%d", &n);
+  printf("Podaj liczbe calkowitą: \n");
+  scanf("%d", &x);
 
-  printf("Podana liczba %d jest %s\n",
-  n, jest_pierwsza(n) ? "pierwsza" : "złożona");
+  printf("Podana liczba %d jest %s\n", x, prime_number(x) ? "pierwsza" : "złożona");
 
   return 0;
 }
