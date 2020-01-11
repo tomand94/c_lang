@@ -1,1 +1,1 @@
-# Zadania z środowiska programisty oraz programowania w C dr Włodzimierza Bzyla
+# Zadania z środowiska programisty oraz programowania w C u dr Włodzimierza Bzyla
