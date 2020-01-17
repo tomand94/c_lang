@@ -23,3 +23,5 @@
 * [x] 6. Napisz program, który wczyta ze stdin 6 liczb rzeczywistych do tablicy, a następnie wyszuka i wypisze największą i najmniejszą liczbę umieszczoną w tej tablicy.
 
 * [x] 7. Napisz program, który ze stdin wczyta 6 liczb rzeczywistych do tablicy, a następnie wypisze liczbę liczb dodatnich w niej zawartych.
+
+* [x] 8. Napisz program rozmieszczający poniższe wzory oddzielnie jeden pod drugim...
