@@ -1,1 +1,0 @@
-# Zadania ze wskaźników u mgr Mateusz Miotk.
