@@ -5,30 +5,27 @@
 
 void sprawdzenie(long unsigned int limit);
 
-int main()
-{
+int main() {
   printf("\tN\t|\tOK\t\n");
   printf("---------------------------------\n");
   sprawdzenie(100);
 }
 
 void sprawdzenie(long unsigned int limit) {
-  int step = 0;
-  int result;
+  int krok = 0;
+  int wynik;
 
   for(int i = 1; i <= limit; i++) {
-    result = i;
-    step = 0;
+    wynik = i;
+    krok = 0;
 
-    while(result != 1)
-    {
-      if(result % 2 == 1)
-      {
-        result = 3 * result + 1;
-        step ++;
+    while(wynik != 1){
+      if(wynik % 2 == 1) {
+        wynik = 3 * wynik + 1;
+        krok++;
       } else {
-        result = result / 2;
-        step ++;
+        wynik = wynik / 2;
+        krok++;
       }
     }
     printf("\t%d\t|\tPRAWDA\t\n", i);

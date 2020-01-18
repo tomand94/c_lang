@@ -16,25 +16,22 @@ int main()
 
 void sprawdzenie(long unsigned int limit)
 {
-  int step = 0;
-  int result;
+  int krok = 0;
+  int wynik;
 
-  for(int i = 1; i <= limit; i++)
-  {
-    result = i;
-    step = 0;
+  for(int i = 1; i <= limit; i++) {
+    wynik = i;
+    krok = 0;
 
-    while(result != 1)
-    {
-      if(result % 2 == 1)
-      {
-        result = 3 * result + 1;
-        step ++;
+    while(wynik != 1) {
+      if(wynik % 2 == 1) {
+        wynik = 3 * wynik + 1;
+        krok++;
       } else {
-        result = result / 2;
-        step ++;
+        wynik = wynik / 2;
+        krok++;
       }
     }
-    printf("\t%d\t|\tPRAWDA\t|\t%d\t\n", i, step);
+    printf("\t%d\t|\tPRAWDA\t|\t%d\t\n", i, krok);
   }
 }
