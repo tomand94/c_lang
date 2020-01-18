@@ -32,6 +32,6 @@ void sprawdzenie(long unsigned int limit)
         krok++;
       }
     }
-    printf("\t%d\t|\tPRAWDA\t|\t%d\t\n", i, krok);
+    printf("\t%d\t|  PRAWDA  |\t%d\t\n", i, krok);
   }
 }
