@@ -4,12 +4,14 @@
 // #N - ile kroków wykonano w rozwiązaniu problemu
 
 #include <stdio.h>
+#define ANSI_COLOR_RED     "\x1b[31m"
+#define ANSI_COLOR_RESET   "\x1b[0m"
 
 void sprawdzenie(long unsigned int limit);
 
 int main()
 {
-  printf("\tN\t|\tOK\t|\t#N\t\n");
+  printf(ANSI_COLOR_RED"\t  N\t|\tOK\t|\t #N\t\n");
   printf("--------------------------------------------------\n");
   sprawdzenie(100);
 }
@@ -32,6 +34,6 @@ void sprawdzenie(long unsigned int limit)
         krok++;
       }
     }
-    printf("\t%d\t|  PRAWDA  |\t%d\t\n", i, krok);
+    printf(ANSI_COLOR_RESET"\t%3d\t|     PRAWDA \t|\t%3d\t\n", i, krok);
   }
 }
